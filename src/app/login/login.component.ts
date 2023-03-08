@@ -11,6 +11,9 @@ export class LoginComponent implements OnInit {
   constructor(private title:Title) { 
   }
 
+  /**
+   * Set the title of component page
+   */
   ngOnInit(): void {
     this.title.setTitle("Login");
   }
